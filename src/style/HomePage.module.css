@@ -1,0 +1,51 @@
+#food {
+  width: 30%px;
+  z-index: 3px;
+  margin-top: 200px;
+  
+  animation: bounce 3s infinite;
+  
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-5%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+#mockup{
+  animation: bounce 3s infinite;
+}
+
+#food > img {
+  width: 85%;
+}
+.first_component {
+  background-image: url("../assets/slide_bg1.png");
+  background-size: cover;
+  
+
+  height: 720px;
+}
+
+#phone{
+  background-image: url(../assets/picked_bg.png);
+  background-size: cover;
+  height: 665px;
+}
+#preorder{
+  background-image: url(../assets/preorder_bg.png);
+  background-size: cover;
+  height: 665px;
+  padding-top: 300px;
+}
+#footer{
+  background-image: url(../assets/footer_bg.png);
+  background-size: cover;
+  height: 800px;
+ 
+}
